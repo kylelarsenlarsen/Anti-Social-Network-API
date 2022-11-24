@@ -7,9 +7,9 @@ const {
     updateThought,
     addReaction,
     updateReaction
-} = require('');
+} = require('../../controllers/thoughtController.js');
 
-// need to create a router that gets thoughts and posts thoughts.
+// router that gets thoughts and posts thoughts.
 router.route('/').get(getThoughts).post(createThought);
 
 // the following router will return one thought, json body, and GUID.

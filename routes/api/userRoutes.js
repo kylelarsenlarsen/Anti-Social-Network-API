@@ -7,7 +7,7 @@ const {
     updateUser,
     addFriend,
     updateFriends
-} = require('');
+} = require('../../controllers/userController.js');
 
 // the following routers will get a single user, all users, delete users, update friends, and add friends.
 router.route('/:_id').get(getSingleUser);
