@@ -46,7 +46,7 @@ module.exports = {
         const sort = {_id: ObjectId(req.params._id)};
         const update = {username: req.body.username};
 
-        User.findOneAndUpdate(sort, update, (err, results) => {
+        User.findOneAndUpdate(sort, update, (err, result) => {
             if (result) {
                 res.status(200).json(result);
             } else {
