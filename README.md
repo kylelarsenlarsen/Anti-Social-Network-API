@@ -4,6 +4,8 @@
 
 This application allows us to create, update, and delete users, thoughts, and reactions! 
 
+![image](./assets/socialnetwork.PNG)
+
 ## Table of Contents
 
 - [Demonstration of Application](#demonstration)
